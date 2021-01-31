@@ -8,10 +8,10 @@ mkdir -p dist
 
 go mod tidy
 
-go build -o TechChallengeApp .
+go build -o Servian-GCP-Deployment .
 
-cp TechChallengeApp dist/
+cp Servian-GCP-Deployment dist/
 cp -r assets dist/
 cp conf.toml dist/
 
-rm TechChallengeApp
+rm Servian-GCP-Deployment 
